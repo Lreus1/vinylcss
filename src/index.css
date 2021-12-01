@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+}
+
+.cover {
+    background-image: url(../src/fleetwood-mac-dreams.jpg);
+    background-color: darkgray;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.vinyl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+}
+
+.label {
+    display: flex;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.hole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
